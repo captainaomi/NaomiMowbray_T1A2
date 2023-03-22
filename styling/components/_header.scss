@@ -1,21 +1,26 @@
+@import "../defaults/color";
+@import "./misc";
+@import "../defaults/breakpoints";
+
 header {
     background-color: white;
-    padding: 10px;
     text-align: center;
     color: $primary-color;
 
     .name {
         font-family: 'Abril Fatface', cursive;
     }
+
     .nav-items a {
         font-family: 'Quicksand', sans-serif;
         text-decoration: none;
         color: $primary-color;
+        padding-bottom: 20px;
     }
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: $phone) {
     .name {
         margin-bottom: 16px;
         font-size: 36px;
@@ -24,13 +29,17 @@ header {
     .nav-items {
         width: 100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         font-size: 12px;
 
+            a {
+                padding-left: 2%;
+                padding-right: 2%;
+            }
     }
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (max-width: $tablet) {
     .name {
         margin-bottom: 16px;
         font-size: 42px;
@@ -43,8 +52,27 @@ header {
         font-size: 14px;
     
         a {
-            padding-left: 5%;
-            padding-right: 5%;
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .name {
+        margin-bottom: 16px;
+        font-size: 42px;
+    }
+
+    .nav-items {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+    
+        a {
+            padding-left: 3%;
+            padding-right: 3%;
         }
     }
 }

@@ -45,8 +45,11 @@ footer .socials a i {
   .socials {
     font-size: 16px;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
+    justify-content: center;
+  }
+  .socials a {
+    padding-left: 3%;
+    padding-right: 3%;
   }
 }
 @media screen and (min-width: 1001px) {
@@ -71,7 +74,6 @@ footer .socials a i {
 }
 header {
   background-color: white;
-  padding: 10px;
   text-align: center;
   color: #21453E;
 }
@@ -82,6 +84,7 @@ header .nav-items a {
   font-family: "Quicksand", sans-serif;
   text-decoration: none;
   color: #21453E;
+  padding-bottom: 20px;
 }
 
 @media screen and (max-width: 600px) {
@@ -92,8 +95,12 @@ header .nav-items a {
   .nav-items {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     font-size: 12px;
+  }
+  .nav-items a {
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
 @media screen and (min-width: 601px) {
@@ -108,13 +115,12 @@ header .nav-items a {
     font-size: 14px;
   }
   .nav-items a {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
   }
 }
 header {
   background-color: white;
-  padding: 10px;
   text-align: center;
   color: #21453E;
 }
@@ -125,6 +131,7 @@ header .nav-items a {
   font-family: "Quicksand", sans-serif;
   text-decoration: none;
   color: #21453E;
+  padding-bottom: 20px;
 }
 
 @media screen and (max-width: 600px) {
@@ -135,8 +142,12 @@ header .nav-items a {
   .nav-items {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     font-size: 12px;
+  }
+  .nav-items a {
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
 @media screen and (min-width: 601px) {
@@ -151,8 +162,8 @@ header .nav-items a {
     font-size: 14px;
   }
   .nav-items a {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
   }
 }
 footer {
@@ -202,8 +213,11 @@ footer .socials a i {
   .socials {
     font-size: 16px;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
+    justify-content: center;
+  }
+  .socials a {
+    padding-left: 3%;
+    padding-right: 3%;
   }
 }
 @media screen and (min-width: 1001px) {

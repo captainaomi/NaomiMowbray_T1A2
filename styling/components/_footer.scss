@@ -1,97 +1,85 @@
-@import "./color";
+@import "../defaults/color";
 @import "./misc";
+@import "../defaults/breakpoints";
 
 footer {
-    background-color: $primary-color;
-    color: white;
-    margin-top: auto;
-    padding: 20px;
-    // display: flex;
-    // align-items: center;
-
-    .socials a i {
-        display: flex;
-        justify-content: space-around;
-        color: white;
-        }
-    }
+  background-color: $primary-color;
+  color: white;
+  margin-top: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 
 
-@media screen and (max-width: 600px) {
-   .signature {
-    display: flex;
-    justify-content: center;
-    font-family: 'Abril Fatface', cursive;
-    font-size: 24px;
+  .signature {
+    font-family: "Abril Fatface", cursive;
   }
 
-   .webdev {
-    display: flex;
-    justify-content: center;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 12px;
+  .webdev {
+    font-family: "Quicksand", sans-serif;
   }
 
-   .socials {
-    display: flex;
-    justify-content: space-around;
-    font-size: 12px;
+  .socials a i {
+    color: red;
+    text-decoration: none;
   }
 }
 
-@media screen and (min-width: 601px) and (max-width: 1000px) {
-    .signature {
-     display: flex;
-     justify-content: center;
-     font-family: 'Abril Fatface', cursive;
-     font-size: 32px;
-   }
- 
-    .webdev {
-     display: flex;
-     justify-content: center;
-     font-family: 'Quicksand', sans-serif;
-     font-size: 14px;
-   }
- 
-    .socials {
-     font-size: 16px;
-     display: flex;
-     justify-content: space-around;
-     align-items: flex-end;
-   }
- }
 
- @media screen and (min-width: 1001px) {
-    .signature {
-     display: flex;
-     justify-content: center;
-     font-family: 'Abril Fatface', cursive;
-     font-size: 45px;
-   }
- 
-    .webdev {
-     display: flex;
-     justify-content: center;
-     font-family: 'Quicksand', sans-serif;
-     font-size: 18px;
-   }
- 
-    .socials {
-     display: flex;
-     justify-content: space-around;
-     align-items: flex-end;
-     font-size: 24px;
-   }
- }
+@media screen and (max-width: $phone) {
+  .signature {
+    font-size: 24px;
+  }
 
+  .webdev {
+    font-size: 12px;
+    padding-bottom: 10px;
+  }
 
-// // @media screen and (min-width: $medium) {
-// //     footer {
-// //         .socials {
-// //             width: 50%;
-// //             margin-left: auto;
-// //             margin-right: auto;
-// //         }
-// //     }
-// // }
+  .socials {
+    font-size: 12px;
+
+    a {
+      padding-left: 1%;
+      padding-right: 1%;
+    }
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .signature {
+    font-size: 32px;
+  }
+
+  .webdev {
+    font-size: 14px;
+  }
+
+  .socials {
+    font-size: 16px;
+    
+    a {
+      padding-left: 3%;
+      padding-right: 3%;
+    }
+  }
+}
+
+@media screen and (min-width: $desktop) {
+  .signature {
+    font-size: 45px;
+  }
+
+  .webdev {
+    font-size: 18px;
+  }
+
+  .socials {
+    font-size: 20px;
+
+    a i {
+      padding-left: 3%;
+      padding-right: 3%;
+    }
+  }
+}
