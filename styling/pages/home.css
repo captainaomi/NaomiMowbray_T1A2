@@ -1,0 +1,122 @@
+footer {
+  background-color: #21453E;
+  height: 120px;
+  color: white;
+}
+footer .signature {
+  color: white;
+}
+footer .socials {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+footer .socials a i {
+  color: white;
+  font-size: 16px;
+}
+
+header {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  color: #21453E;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  header .name {
+    margin-bottom: 16px;
+    font-family: "Abril Fatface", cursive;
+    font-size: 36px;
+  }
+  header .nav-items {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    font-family: "Quicksand", sans-serif;
+  }
+  header .nav-items a {
+    text-decoration: none;
+  }
+  footer .signature {
+    display: flex;
+    justify-content: center;
+    font-family: "Abril Fatface", cursive;
+    font-size: 24px;
+  }
+  footer .webdev {
+    display: flex;
+    justify-content: center;
+    font-family: "Quicksand", sans-serif;
+    font-size: 12px;
+  }
+  footer .socials a i {
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 600px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .logo-name .name {
+    margin-bottom: 0;
+  }
+  header .nav-items {
+    width: 100%;
+  }
+}
+footer {
+  background-color: #21453E;
+  padding: 16px;
+}
+
+footer .signature {
+  display: flex;
+  color: white;
+  margin: 5px o;
+}
+
+footer .signame {
+  font-family: "Abril Fatface", cursive;
+  font-size: 24px;
+}
+
+footer .webdev {
+  font-family: "Quicksand", sans-serif;
+  font-size: 12px;
+}
+
+footer .socials {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0px;
+}
+
+footer .socials a i {
+  color: white;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 600px) {
+  footer .socials {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+body {
+  margin: 0;
+  background-color: #E8EBD6;
+  min-height: 150vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=home.css.map */
