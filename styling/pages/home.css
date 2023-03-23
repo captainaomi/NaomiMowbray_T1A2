@@ -89,9 +89,12 @@ header .name a {
 }
 header .nav-items a {
   font-family: "Quicksand", sans-serif;
-  text-decoration: none;
   color: #21453E;
+  text-decoration: none;
   padding-bottom: 20px;
+}
+header .nav-items a:hover {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 480px) {
@@ -153,9 +156,12 @@ header .name a {
 }
 header .nav-items a {
   font-family: "Quicksand", sans-serif;
-  text-decoration: none;
   color: #21453E;
+  text-decoration: none;
   padding-bottom: 20px;
+}
+header .nav-items a:hover {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 480px) {

@@ -13,9 +13,13 @@ header {
 
     .nav-items a {
         font-family: 'Quicksand', sans-serif;
-        text-decoration: none;
         color: $primary-color;
+        text-decoration: none;
         padding-bottom: 20px;
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }
 
