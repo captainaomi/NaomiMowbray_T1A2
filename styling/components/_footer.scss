@@ -1,5 +1,4 @@
 @import "../defaults/color";
-@import "./misc";
 @import "../defaults/breakpoints";
 
 footer {
@@ -7,9 +6,6 @@ footer {
   color: white;
   margin-top: auto;
   padding: 20px;
-  display: flex;
-  justify-content: center;
-
 
   .signature {
     font-family: "Abril Fatface", cursive;
@@ -20,43 +16,54 @@ footer {
   }
 
   .socials a i {
-    color: red;
     text-decoration: none;
+    color: white;
   }
 }
 
 
-@media screen and (max-width: $phone) {
+@media screen and (max-width: $medium) {
   .signature {
     font-size: 24px;
+    display: flex;
+    justify-content: center;
   }
 
   .webdev {
     font-size: 12px;
-    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
   }
 
   .socials {
     font-size: 12px;
+    display: flex;
+    justify-content: center;
 
     a {
-      padding-left: 1%;
-      padding-right: 1%;
+      padding-left: 3%;
+      padding-right: 3%;
     }
   }
 }
 
-@media screen and (max-width: $tablet) {
+@media screen and (min-width: $medium) {
   .signature {
     font-size: 32px;
+    display: flex;
+    justify-content: center;
   }
 
   .webdev {
     font-size: 14px;
+    display: flex;
+    justify-content: center;
   }
 
   .socials {
-    font-size: 16px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
     
     a {
       padding-left: 3%;
@@ -65,17 +72,23 @@ footer {
   }
 }
 
-@media screen and (min-width: $desktop) {
+@media screen and (min-width: $large) {
   .signature {
-    font-size: 45px;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
   }
 
   .webdev {
-    font-size: 18px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
   }
 
   .socials {
-    font-size: 20px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
 
     a i {
       padding-left: 3%;

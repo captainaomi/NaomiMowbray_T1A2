@@ -1,8 +1,10 @@
-@import "../components/color";
 @import "../components/footer";
 @import "../components/header";
-@import "./index"
+@import "./index";
 
+body {
+    background-color: $primary-color;
+}
 
 //   // // main section .jumbotron img {
 //   // //   width: 100%;

@@ -1,1 +1,298 @@
-/*# sourceMappingURL=about.css.map */
+footer {
+  background-color: #21453E;
+  color: white;
+  margin-top: auto;
+  padding: 20px;
+}
+footer .signature {
+  font-family: "Abril Fatface", cursive;
+}
+footer .webdev {
+  font-family: "Quicksand", sans-serif;
+}
+footer .socials a i {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+  .signature {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+  }
+  .webdev {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+  }
+  .socials {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+  }
+  .socials a {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+@media screen and (min-width: 480px) {
+  .signature {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+  }
+  .webdev {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+  }
+  .socials {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+  }
+  .socials a {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .signature {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+  }
+  .webdev {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+  }
+  .socials {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+  }
+  .socials a i {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+header {
+  background-color: white;
+  text-align: center;
+}
+header .name a {
+  font-family: "Abril Fatface", cursive;
+  text-decoration: none;
+  color: #21453E;
+}
+header .nav-items a {
+  font-family: "Quicksand", sans-serif;
+  text-decoration: none;
+  color: #21453E;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .name {
+    margin-bottom: 16px;
+    font-size: 36px;
+  }
+  .nav-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+  }
+  .nav-items a {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+@media screen and (min-width: 480px) {
+  .name {
+    margin-bottom: 16px;
+    font-size: 42px;
+  }
+  .nav-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+  }
+  .nav-items a {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .name {
+    margin-bottom: 16px;
+    font-size: 48px;
+  }
+  .nav-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+  }
+  .nav-items a {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+header {
+  background-color: white;
+  text-align: center;
+}
+header .name a {
+  font-family: "Abril Fatface", cursive;
+  text-decoration: none;
+  color: #21453E;
+}
+header .nav-items a {
+  font-family: "Quicksand", sans-serif;
+  text-decoration: none;
+  color: #21453E;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .name {
+    margin-bottom: 16px;
+    font-size: 36px;
+  }
+  .nav-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+  }
+  .nav-items a {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+@media screen and (min-width: 480px) {
+  .name {
+    margin-bottom: 16px;
+    font-size: 42px;
+  }
+  .nav-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+  }
+  .nav-items a {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .name {
+    margin-bottom: 16px;
+    font-size: 48px;
+  }
+  .nav-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+  }
+  .nav-items a {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+footer {
+  background-color: #21453E;
+  color: white;
+  margin-top: auto;
+  padding: 20px;
+}
+footer .signature {
+  font-family: "Abril Fatface", cursive;
+}
+footer .webdev {
+  font-family: "Quicksand", sans-serif;
+}
+footer .socials a i {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+  .signature {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+  }
+  .webdev {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+  }
+  .socials {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+  }
+  .socials a {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+@media screen and (min-width: 480px) {
+  .signature {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+  }
+  .webdev {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+  }
+  .socials {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+  }
+  .socials a {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .signature {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+  }
+  .webdev {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+  }
+  .socials {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+  }
+  .socials a i {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-color: #588077;
+}/*# sourceMappingURL=about.css.map */
