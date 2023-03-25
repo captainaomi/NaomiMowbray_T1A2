@@ -1,18 +1,17 @@
 @import "../defaults/color";
 @import "../defaults/breakpoints";
+@import "../defaults/text";
 
 header {
     background-color: white;
     text-align: center;
 
     .name a {
-        font-family: 'Abril Fatface', cursive;
         text-decoration: none;
         color: $primary-color;
     }
 
     .nav-items a {
-        font-family: 'Quicksand', sans-serif;
         color: $primary-color;
         text-decoration: none;
         padding-bottom: 20px;

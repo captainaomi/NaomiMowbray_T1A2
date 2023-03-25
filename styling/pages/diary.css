@@ -1,14 +1,54 @@
+h1 {
+  font-family: "Abril Fatface", cursive;
+}
+
+h2 {
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.9rem;
+}
+
+.name {
+  font-family: "Abril Fatface", cursive;
+}
+
+.nav-items {
+  font-family: "Quicksand", sans-serif;
+}
+
+.signature {
+  font-family: "Abril Fatface", cursive;
+}
+
+.webdev {
+  font-family: "Quicksand", sans-serif;
+}
+
+label {
+  font-family: "Quicksand", sans-serif;
+}
+
+.form-input {
+  font-family: "Quicksand", sans-serif;
+}
+
+.form-message {
+  font-family: "Quicksand", sans-serif;
+}
+
+#submit {
+  font-family: "Quicksand", sans-serif;
+}
+
 footer {
   background-color: #21453E;
   color: white;
   margin-top: auto;
   padding: 20px;
-}
-footer .signature {
-  font-family: "Abril Fatface", cursive;
-}
-footer .webdev {
-  font-family: "Quicksand", sans-serif;
 }
 footer .socials a i {
   text-decoration: none;
@@ -78,17 +118,61 @@ footer .socials a i {
     padding-right: 3%;
   }
 }
+h1 {
+  font-family: "Abril Fatface", cursive;
+}
+
+h2 {
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.9rem;
+}
+
+.name {
+  font-family: "Abril Fatface", cursive;
+}
+
+.nav-items {
+  font-family: "Quicksand", sans-serif;
+}
+
+.signature {
+  font-family: "Abril Fatface", cursive;
+}
+
+.webdev {
+  font-family: "Quicksand", sans-serif;
+}
+
+label {
+  font-family: "Quicksand", sans-serif;
+}
+
+.form-input {
+  font-family: "Quicksand", sans-serif;
+}
+
+.form-message {
+  font-family: "Quicksand", sans-serif;
+}
+
+#submit {
+  font-family: "Quicksand", sans-serif;
+}
+
 header {
   background-color: white;
   text-align: center;
 }
 header .name a {
-  font-family: "Abril Fatface", cursive;
   text-decoration: none;
   color: #21453E;
 }
 header .nav-items a {
-  font-family: "Quicksand", sans-serif;
   color: #21453E;
   text-decoration: none;
   padding-bottom: 20px;
@@ -145,17 +229,107 @@ header .nav-items a:hover {
     padding-right: 2%;
   }
 }
+h1 {
+  font-family: "Abril Fatface", cursive;
+}
+
+h2 {
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.9rem;
+}
+
+.name {
+  font-family: "Abril Fatface", cursive;
+}
+
+.nav-items {
+  font-family: "Quicksand", sans-serif;
+}
+
+.signature {
+  font-family: "Abril Fatface", cursive;
+}
+
+.webdev {
+  font-family: "Quicksand", sans-serif;
+}
+
+label {
+  font-family: "Quicksand", sans-serif;
+}
+
+.form-input {
+  font-family: "Quicksand", sans-serif;
+}
+
+.form-message {
+  font-family: "Quicksand", sans-serif;
+}
+
+#submit {
+  font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+  font-family: "Abril Fatface", cursive;
+}
+
+h2 {
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.9rem;
+}
+
+.name {
+  font-family: "Abril Fatface", cursive;
+}
+
+.nav-items {
+  font-family: "Quicksand", sans-serif;
+}
+
+.signature {
+  font-family: "Abril Fatface", cursive;
+}
+
+.webdev {
+  font-family: "Quicksand", sans-serif;
+}
+
+label {
+  font-family: "Quicksand", sans-serif;
+}
+
+.form-input {
+  font-family: "Quicksand", sans-serif;
+}
+
+.form-message {
+  font-family: "Quicksand", sans-serif;
+}
+
+#submit {
+  font-family: "Quicksand", sans-serif;
+}
+
 header {
   background-color: white;
   text-align: center;
 }
 header .name a {
-  font-family: "Abril Fatface", cursive;
   text-decoration: none;
   color: #21453E;
 }
 header .nav-items a {
-  font-family: "Quicksand", sans-serif;
   color: #21453E;
   text-decoration: none;
   padding-bottom: 20px;
@@ -212,17 +386,57 @@ header .nav-items a:hover {
     padding-right: 2%;
   }
 }
+h1 {
+  font-family: "Abril Fatface", cursive;
+}
+
+h2 {
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.9rem;
+}
+
+.name {
+  font-family: "Abril Fatface", cursive;
+}
+
+.nav-items {
+  font-family: "Quicksand", sans-serif;
+}
+
+.signature {
+  font-family: "Abril Fatface", cursive;
+}
+
+.webdev {
+  font-family: "Quicksand", sans-serif;
+}
+
+label {
+  font-family: "Quicksand", sans-serif;
+}
+
+.form-input {
+  font-family: "Quicksand", sans-serif;
+}
+
+.form-message {
+  font-family: "Quicksand", sans-serif;
+}
+
+#submit {
+  font-family: "Quicksand", sans-serif;
+}
+
 footer {
   background-color: #21453E;
   color: white;
   margin-top: auto;
   padding: 20px;
-}
-footer .signature {
-  font-family: "Abril Fatface", cursive;
-}
-footer .webdev {
-  font-family: "Quicksand", sans-serif;
 }
 footer .socials a i {
   text-decoration: none;

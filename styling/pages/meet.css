@@ -1,94 +1,104 @@
-footer {
-  background-color: #21453E;
-  color: white;
-  margin-top: auto;
-  padding: 20px;
-}
-footer .signature {
+h1 {
   font-family: "Abril Fatface", cursive;
 }
-footer .webdev {
-  font-family: "Quicksand", sans-serif;
-}
-footer .socials a i {
-  text-decoration: none;
-  color: white;
+
+h2 {
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
 }
 
-@media screen and (max-width: 480px) {
-  .signature {
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-  }
-  .webdev {
-    font-size: 12px;
-    display: flex;
-    justify-content: center;
-  }
-  .socials {
-    font-size: 12px;
-    display: flex;
-    justify-content: center;
-  }
-  .socials a {
-    padding-left: 3%;
-    padding-right: 3%;
-  }
+p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.9rem;
 }
-@media screen and (min-width: 480px) {
-  .signature {
-    font-size: 32px;
-    display: flex;
-    justify-content: center;
-  }
-  .webdev {
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-  }
-  .socials {
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-  }
-  .socials a {
-    padding-left: 3%;
-    padding-right: 3%;
-  }
+
+.name {
+  font-family: "Abril Fatface", cursive;
 }
-@media screen and (min-width: 768px) {
-  .signature {
-    font-size: 36px;
-    display: flex;
-    justify-content: center;
-  }
-  .webdev {
-    font-size: 16px;
-    display: flex;
-    justify-content: center;
-  }
-  .socials {
-    font-size: 16px;
-    display: flex;
-    justify-content: center;
-  }
-  .socials a i {
-    padding-left: 3%;
-    padding-right: 3%;
-  }
+
+.nav-items {
+  font-family: "Quicksand", sans-serif;
 }
+
+.signature {
+  font-family: "Abril Fatface", cursive;
+}
+
+.webdev {
+  font-family: "Quicksand", sans-serif;
+}
+
+label {
+  font-family: "Quicksand", sans-serif;
+}
+
+.form-input {
+  font-family: "Quicksand", sans-serif;
+}
+
+.form-message {
+  font-family: "Quicksand", sans-serif;
+}
+
+#submit {
+  font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+  font-family: "Abril Fatface", cursive;
+}
+
+h2 {
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.9rem;
+}
+
+.name {
+  font-family: "Abril Fatface", cursive;
+}
+
+.nav-items {
+  font-family: "Quicksand", sans-serif;
+}
+
+.signature {
+  font-family: "Abril Fatface", cursive;
+}
+
+.webdev {
+  font-family: "Quicksand", sans-serif;
+}
+
+label {
+  font-family: "Quicksand", sans-serif;
+}
+
+.form-input {
+  font-family: "Quicksand", sans-serif;
+}
+
+.form-message {
+  font-family: "Quicksand", sans-serif;
+}
+
+#submit {
+  font-family: "Quicksand", sans-serif;
+}
+
 header {
   background-color: white;
   text-align: center;
 }
 header .name a {
-  font-family: "Abril Fatface", cursive;
   text-decoration: none;
   color: #21453E;
 }
 header .nav-items a {
-  font-family: "Quicksand", sans-serif;
   color: #21453E;
   text-decoration: none;
   padding-bottom: 20px;
@@ -145,84 +155,57 @@ header .nav-items a:hover {
     padding-right: 2%;
   }
 }
-header {
-  background-color: white;
-  text-align: center;
-}
-header .name a {
+h1 {
   font-family: "Abril Fatface", cursive;
-  text-decoration: none;
-  color: #21453E;
-}
-header .nav-items a {
-  font-family: "Quicksand", sans-serif;
-  color: #21453E;
-  text-decoration: none;
-  padding-bottom: 20px;
-}
-header .nav-items a:hover {
-  text-decoration: underline;
 }
 
-@media screen and (max-width: 480px) {
-  .name {
-    margin-bottom: 16px;
-    font-size: 36px;
-  }
-  .nav-items {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    font-size: 12px;
-  }
-  .nav-items a {
-    padding-left: 2%;
-    padding-right: 2%;
-  }
+h2 {
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
 }
-@media screen and (min-width: 480px) {
-  .name {
-    margin-bottom: 16px;
-    font-size: 42px;
-  }
-  .nav-items {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
-  }
-  .nav-items a {
-    padding-left: 2%;
-    padding-right: 2%;
-  }
+
+p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.9rem;
 }
-@media screen and (min-width: 768px) {
-  .name {
-    margin-bottom: 16px;
-    font-size: 48px;
-  }
-  .nav-items {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    font-size: 16px;
-  }
-  .nav-items a {
-    padding-left: 2%;
-    padding-right: 2%;
-  }
+
+.name {
+  font-family: "Abril Fatface", cursive;
 }
+
+.nav-items {
+  font-family: "Quicksand", sans-serif;
+}
+
+.signature {
+  font-family: "Abril Fatface", cursive;
+}
+
+.webdev {
+  font-family: "Quicksand", sans-serif;
+}
+
+label {
+  font-family: "Quicksand", sans-serif;
+}
+
+.form-input {
+  font-family: "Quicksand", sans-serif;
+}
+
+.form-message {
+  font-family: "Quicksand", sans-serif;
+}
+
+#submit {
+  font-family: "Quicksand", sans-serif;
+}
+
 footer {
   background-color: #21453E;
   color: white;
   margin-top: auto;
   padding: 20px;
-}
-footer .signature {
-  font-family: "Abril Fatface", cursive;
-}
-footer .webdev {
-  font-family: "Quicksand", sans-serif;
 }
 footer .socials a i {
   text-decoration: none;
@@ -306,23 +289,74 @@ body main {
   display: flex;
   flex-wrap: wrap;
 }
+body main .history {
+  background-color: #E8EBD6;
+  color: #21453E;
+  padding: 10%;
+  text-align: justify;
+  width: 100%;
+}
+body main .pilot-title {
+  background-color: #21453E;
+  color: white;
+  padding: 10%;
+  text-align: justify;
+  width: 100%;
+}
+body main .pictures {
+  background-color: #588077;
+}
+body main .right-time {
+  background-color: #E8EBD6;
+  color: #21453E;
+  padding: 10%;
+  text-align: justify;
+  width: 100%;
+}
 body main .bio {
   background-color: #E8EBD6;
   color: #21453E;
-  padding: 15%;
+  padding: 10%;
+  text-align: justify;
+  width: 100%;
 }
-body main .pictures {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+@media screen and (max-width: 480px) {
+  body main .pictures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .pictures img {
+    width: 80%;
+    height: auto;
+    -o-object-fit: contain;
+       object-fit: contain;
+    padding-top: 10%;
+  }
+  body main .pictures img:last-child {
+    padding-bottom: 10%;
+  }
 }
-body main .pictures img {
-  width: 70%;
-  height: auto;
-  -o-object-fit: contain;
-     object-fit: contain;
-  padding-top: 15%;
-}
-body main .pictures img:last-child {
-  padding-bottom: 15%;
+@media screen and (min-width: 480px) {
+  body main .history {
+    padding: 7%;
+  }
+  body main .pilot-title {
+    padding: 7%;
+  }
+  body main .pictures {
+    display: flex;
+    justify-content: space-between;
+    padding: 7%;
+  }
+  body main .pictures img {
+    height: auto;
+    width: 31%;
+  }
+  body main .right-time {
+    padding: 7%;
+  }
+  body main .bio {
+    padding: 7%;
+  }
 }/*# sourceMappingURL=meet.css.map */
