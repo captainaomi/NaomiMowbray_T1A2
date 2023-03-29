@@ -284,4 +284,45 @@ body {
 
 body {
   background-color: #21453E;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body .tagline {
+  color: white;
+  padding: 10%;
+  text-align: center;
+  width: 80%;
+}
+body .tagline p {
+  padding-bottom: 5%;
+}
+body .meet-btn {
+  background-color: #21453E;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-family: "Quicksand", sans-serif;
+  height: 2.2rem;
+}
+body .meet-btn a {
+  text-decoration: none;
+  color: white;
+}
+body .meet-btn:hover {
+  background-color: white;
+  color: #21453E;
+}
+body .meet-btn:hover a {
+  text-decoration: none;
+  color: #21453E;
+}
+body .cafe-pic {
+  display: flex;
+  justify-content: center;
+  background-color: #588077;
+}
+body .cafe-pic img {
+  padding: 10%;
+  width: 80%;
+  height: auto;
 }/*# sourceMappingURL=home.css.map */

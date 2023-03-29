@@ -513,6 +513,25 @@ body {
   flex-direction: column;
 }
 
-body {
-  background-color: white;
+main {
+  background-color: #21453E;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+main article {
+  margin: 10% 1%;
+  background-color: #E8EBD6;
+  padding: 24px;
+  text-align: center;
+  color: #21453E;
+}
+main article section {
+  width: 220px;
+}
+main article section img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=diary.css.map */
