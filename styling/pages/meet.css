@@ -307,6 +307,32 @@ body main .pilot-title {
   text-align: justify;
   width: 100%;
 }
+body main .resume {
+  background-color: #21453E;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+body main .resume .resume-btn {
+  background-color: #21453E;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-family: "Quicksand", sans-serif;
+  height: 2.2rem;
+  margin-bottom: 10%;
+}
+body main .resume .resume-btn a {
+  text-decoration: none;
+  color: white;
+}
+body main .resume .resume-btn:hover {
+  background-color: white;
+  color: #21453E;
+}
+body main .resume .resume-btn:hover a {
+  text-decoration: none;
+  color: #21453E;
+}
 body main .pictures {
   background-color: #588077;
 }
