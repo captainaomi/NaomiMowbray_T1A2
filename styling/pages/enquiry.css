@@ -593,7 +593,6 @@ body main .contact-section {
     width: 50%;
     align-items: center;
     padding-top: 7%;
-    flex-grow: 5;
   }
   body main .contact-section {
     text-align: right;

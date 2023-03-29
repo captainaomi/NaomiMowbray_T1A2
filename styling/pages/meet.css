@@ -287,14 +287,14 @@ body {
 }
 
 body {
-  background-color: #588077;
+  background-color: #E8EBD6;
 }
 body main {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
-body main .history {
-  background-color: #E8EBD6;
+body main .bio {
   color: #21453E;
   padding: 10%;
   text-align: justify;
@@ -310,19 +310,25 @@ body main .pilot-title {
 body main .pictures {
   background-color: #588077;
 }
-body main .right-time {
+body main .stories-btn {
   background-color: #E8EBD6;
-  color: #21453E;
-  padding: 10%;
-  text-align: justify;
-  width: 100%;
+  border: 2px solid #588077;
+  border-radius: 5px;
+  font-family: "Quicksand", sans-serif;
+  height: 2.2rem;
+  margin-bottom: 15%;
 }
-body main .bio {
-  background-color: #E8EBD6;
-  color: #21453E;
-  padding: 10%;
-  text-align: justify;
-  width: 100%;
+body main .stories-btn a {
+  text-decoration: none;
+  color: #588077;
+}
+body main .stories-btn:hover {
+  background-color: #588077;
+  color: #E8EBD6;
+}
+body main .stories-btn:hover a {
+  text-decoration: none;
+  color: #E8EBD6;
 }
 @media screen and (max-width: 480px) {
   body main .pictures {
@@ -342,7 +348,7 @@ body main .bio {
   }
 }
 @media screen and (min-width: 480px) {
-  body main .history {
+  body main .bio {
     padding: 7%;
   }
   body main .pilot-title {
@@ -356,11 +362,5 @@ body main .bio {
   body main .pictures img {
     height: auto;
     width: 31%;
-  }
-  body main .right-time {
-    padding: 7%;
-  }
-  body main .bio {
-    padding: 7%;
   }
 }/*# sourceMappingURL=meet.css.map */
