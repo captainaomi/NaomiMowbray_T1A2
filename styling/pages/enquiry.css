@@ -10,6 +10,7 @@ h2 {
 p {
   font-family: "Quicksand", sans-serif;
   font-size: 0.9rem;
+  line-height: 1rem;
 }
 
 .name {
@@ -130,6 +131,7 @@ h2 {
 p {
   font-family: "Quicksand", sans-serif;
   font-size: 0.9rem;
+  line-height: 1rem;
 }
 
 .name {
@@ -241,6 +243,7 @@ h2 {
 p {
   font-family: "Quicksand", sans-serif;
   font-size: 0.9rem;
+  line-height: 1rem;
 }
 
 .name {
@@ -287,6 +290,7 @@ h2 {
 p {
   font-family: "Quicksand", sans-serif;
   font-size: 0.9rem;
+  line-height: 1rem;
 }
 
 .name {
@@ -398,6 +402,7 @@ h2 {
 p {
   font-family: "Quicksand", sans-serif;
   font-size: 0.9rem;
+  line-height: 1rem;
 }
 
 .name {
@@ -511,10 +516,12 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: stretch;
 }
 
 body {
   background-color: #588077;
+  margin-bottom: 0;
 }
 body main {
   display: flex;
@@ -546,7 +553,11 @@ body main form .form-elements .form-message {
   outline: none;
   padding: 1%;
 }
-body main form .submit {
+body main form .submit-btn {
+  display: flex;
+  justify-content: center;
+}
+body main form .submit-btn .submit {
   background-color: #588077;
   border: 2px solid white;
   border-radius: 5px;
@@ -554,7 +565,7 @@ body main form .submit {
   font-family: "Quicksand", sans-serif;
   height: 2.2rem;
 }
-body main form .submit:hover {
+body main form .submit-btn .submit:hover {
   background-color: white;
   color: #588077;
 }
@@ -571,7 +582,7 @@ body main .contact-section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: stretch;
+    height: auto;
   }
   body main .please {
     padding-top: 7%;
@@ -579,18 +590,21 @@ body main .contact-section {
     text-align: left;
   }
   body main form {
+    width: 50%;
     align-items: center;
     padding-top: 7%;
     flex-grow: 5;
-    align-items: stretch;
   }
   body main .contact-section {
     text-align: right;
     padding-top: 7%;
-    margin-right: 0%;
-    align-self: stretch;
+    margin-right: 0;
+    margin-bottom: 0;
+    height: auto;
+    background-color: #E8EBD6;
   }
   body main .contact-section .contact-words {
     text-align: right;
+    align-self: stretch;
   }
 }/*# sourceMappingURL=enquiry.css.map */

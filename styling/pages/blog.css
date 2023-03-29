@@ -520,32 +520,40 @@ body {
 }
 
 main {
-  background-color: #21453E;
+  background-color: #E8EBD6;
+  color: #21453E;
+  padding: 10%;
+  text-align: justify;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  justify-content: center;
 }
-main article {
-  margin: 3% 1%;
-  background-color: #E8EBD6;
-  padding: 24px;
+main img {
+  width: 100%;
+}
+main .blog-title {
+  flex-direction: column;
+}
+main .blog-title .date {
   text-align: center;
 }
-main article a {
-  text-decoration: none;
-  color: #21453E;
+main .enquiry-btn {
+  background-color: #E8EBD6;
+  border: 2px solid #588077;
+  border-radius: 5px;
+  font-family: "Quicksand", sans-serif;
+  height: 2.2rem;
+  margin-top: 5%;
 }
-main article a:hover {
+main .enquiry-btn a {
+  text-decoration: none;
   color: #588077;
 }
-main article section {
-  width: 220px;
+main .enquiry-btn:hover {
+  background-color: #588077;
+  color: #E8EBD6;
 }
-main article section img {
-  width: 100%;
-  height: auto;
-  -o-object-fit: contain;
-     object-fit: contain;
-}/*# sourceMappingURL=diary.css.map */
+main .enquiry-btn:hover a {
+  text-decoration: none;
+  color: #E8EBD6;
+}/*# sourceMappingURL=blog.css.map */

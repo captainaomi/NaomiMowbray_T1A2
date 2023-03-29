@@ -1,0 +1,48 @@
+@import "../components/footer";
+@import "../components/header";
+@import "./index";
+
+  main {
+    background-color: $base-color;
+    color: $primary-color;
+    padding: 10%;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+  img {
+    width: 100%;
+  }
+
+  .blog-title {
+    flex-direction: column;
+  .date {
+    text-align: center;
+  }
+}
+
+  .enquiry-btn {
+    background-color: $base-color;
+    border: 2px solid $secondary-color;
+    border-radius: 5px;
+    font-family: "Quicksand", sans-serif;
+    height: 2.2rem;
+    margin-top: 5%;
+
+    a {
+      text-decoration: none;
+      color: $secondary-color;
+    }
+
+    &:hover {
+      background-color: $secondary-color;
+      color: $base-color;
+
+      a {
+        text-decoration: none;
+        color: $base-color;
+      }
+    }
+  }
+}
