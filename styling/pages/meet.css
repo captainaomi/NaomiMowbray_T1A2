@@ -413,7 +413,7 @@ body main .stories-btn:hover a {
 }
 @media screen and (min-width: 768px) {
   body .bio {
-    padding: 7%;
+    padding: 5%;
   }
   body .bio h2 {
     font-size: 2rem;
@@ -423,7 +423,7 @@ body main .stories-btn:hover a {
     line-height: 1.5;
   }
   body .pilot-title {
-    padding: 7%;
+    padding: 5%;
   }
   body .pilot-title h2 {
     font-size: 2rem;
@@ -431,7 +431,7 @@ body main .stories-btn:hover a {
   body .pictures {
     display: flex;
     justify-content: space-between;
-    padding: 7%;
+    padding: 5%;
   }
   body .pictures img {
     height: auto;
