@@ -3,79 +3,81 @@
 @import "../defaults/text";
 
 header {
-    background-color: white;
-    text-align: center;
+  background-color: white;
+  text-align: center;
 
-    .name a {
-        text-decoration: none;
-        color: $primary-color;
+  .name a {
+    text-decoration: none;
+    color: $primary-color;
+  }
+
+  .nav-items a {
+    color: $primary-color;
+    text-decoration: none;
+    padding-bottom: 20px;
+
+    &:hover {
+      text-decoration: underline;
     }
-
-    .nav-items a {
-        color: $primary-color;
-        text-decoration: none;
-        padding-bottom: 20px;
-
-        &:hover {
-            text-decoration: underline;
-        }
-    }
+  }
 }
 
-
+// for mobile view
 @media screen and (max-width: $medium) {
-    .name {
-        margin-bottom: 16px;
-        font-size: 36px;
-    }
+  .name {
+    margin-bottom: 16px;
+    font-size: 36px;
+  }
 
-    .nav-items {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        font-size: 12px;
+  .nav-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
 
-            a {
-                padding-left: 2%;
-                padding-right: 2%;
-            }
+    a {
+      padding-left: 2%;
+      padding-right: 2%;
     }
+  }
 }
 
+// for tablet view
 @media screen and (min-width: $medium) {
-    .name {
-        margin-bottom: 16px;
-        font-size: 42px;
-    }
+  .name {
+    margin-bottom: 16px;
+    font-size: 42px;
+  }
 
-    .nav-items {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        font-size: 14px;
-    
-        a {
-            padding-left: 2%;
-            padding-right: 2%;
-        }
+  .nav-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+
+    a {
+      padding-left: 2%;
+      padding-right: 2%;
     }
+  }
 }
 
+// for desktop view
 @media screen and (min-width: $large) {
-    .name {
-        margin-bottom: 16px;
-        font-size: 48px;
-    }
+  .name {
+    margin-bottom: 16px;
+    font-size: 48px;
+  }
 
-    .nav-items {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        font-size: 16px;
-    
-        a {
-            padding-left: 2%;
-            padding-right: 2%;
-        }
+  .nav-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+
+    a {
+      padding-left: 2%;
+      padding-right: 2%;
     }
+  }
 }

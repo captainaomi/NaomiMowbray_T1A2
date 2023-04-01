@@ -10,7 +10,13 @@ h2 {
 p {
   font-family: "Quicksand", sans-serif;
   font-size: 0.9rem;
-  line-height: 1rem;
+  line-height: 1.5;
+}
+
+ul li {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 .name {
@@ -57,7 +63,13 @@ h2 {
 p {
   font-family: "Quicksand", sans-serif;
   font-size: 0.9rem;
-  line-height: 1rem;
+  line-height: 1.5;
+}
+
+ul li {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 .name {
@@ -169,7 +181,13 @@ h2 {
 p {
   font-family: "Quicksand", sans-serif;
   font-size: 0.9rem;
-  line-height: 1rem;
+  line-height: 1.5;
+}
+
+ul li {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 .name {
@@ -207,8 +225,11 @@ label {
 footer {
   background-color: #21453E;
   color: white;
-  margin-top: auto;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
 }
 footer .socials a i {
   text-decoration: none;
@@ -339,23 +360,9 @@ body .cafe-pic img {
     line-height: 1.5rem;
   }
   body .meet-btn {
-    background-color: #21453E;
-    border: 2px solid white;
-    border-radius: 5px;
-    font-family: "Quicksand", sans-serif;
-    height: 2.5rem;
+    height: 5rem;
   }
   body .meet-btn a {
-    text-decoration: none;
-    color: white;
     font-size: 1rem;
-  }
-  body .meet-btn:hover {
-    background-color: white;
-    color: #21453E;
-  }
-  body .meet-btn:hover a {
-    text-decoration: none;
-    color: #21453E;
   }
 }/*# sourceMappingURL=home.css.map */

@@ -10,7 +10,13 @@ h2 {
 p {
   font-family: "Quicksand", sans-serif;
   font-size: 0.9rem;
-  line-height: 1rem;
+  line-height: 1.5;
+}
+
+ul li {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 .name {
@@ -57,7 +63,13 @@ h2 {
 p {
   font-family: "Quicksand", sans-serif;
   font-size: 0.9rem;
-  line-height: 1rem;
+  line-height: 1.5;
+}
+
+ul li {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 .name {
@@ -169,7 +181,13 @@ h2 {
 p {
   font-family: "Quicksand", sans-serif;
   font-size: 0.9rem;
-  line-height: 1rem;
+  line-height: 1.5;
+}
+
+ul li {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 .name {
@@ -207,8 +225,11 @@ label {
 footer {
   background-color: #21453E;
   color: white;
-  margin-top: auto;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
 }
 footer .socials a i {
   text-decoration: none;
@@ -388,5 +409,44 @@ body main .stories-btn:hover a {
   body main .pictures img {
     height: auto;
     width: 31%;
+  }
+}
+@media screen and (min-width: 768px) {
+  body .bio {
+    padding: 7%;
+  }
+  body .bio h2 {
+    font-size: 2rem;
+  }
+  body .bio p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  body .pilot-title {
+    padding: 7%;
+  }
+  body .pilot-title h2 {
+    font-size: 2rem;
+  }
+  body .pictures {
+    display: flex;
+    justify-content: space-between;
+    padding: 7%;
+  }
+  body .pictures img {
+    height: auto;
+    width: 31%;
+  }
+  body .resume .resume-btn {
+    height: 2.5rem;
+  }
+  body .resume .resume-btn a {
+    font-size: 1rem;
+  }
+  body .stories-btn {
+    height: 2.5rem;
+  }
+  body .stories-btn a {
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=meet.css.map */

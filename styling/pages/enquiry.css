@@ -10,7 +10,13 @@ h2 {
 p {
   font-family: "Quicksand", sans-serif;
   font-size: 0.9rem;
-  line-height: 1rem;
+  line-height: 1.5;
+}
+
+ul li {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 .name {
@@ -48,8 +54,11 @@ label {
 footer {
   background-color: #21453E;
   color: white;
-  margin-top: auto;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
 }
 footer .socials a i {
   text-decoration: none;
@@ -131,7 +140,13 @@ h2 {
 p {
   font-family: "Quicksand", sans-serif;
   font-size: 0.9rem;
-  line-height: 1rem;
+  line-height: 1.5;
+}
+
+ul li {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 .name {
@@ -243,7 +258,13 @@ h2 {
 p {
   font-family: "Quicksand", sans-serif;
   font-size: 0.9rem;
-  line-height: 1rem;
+  line-height: 1.5;
+}
+
+ul li {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 .name {
@@ -290,7 +311,13 @@ h2 {
 p {
   font-family: "Quicksand", sans-serif;
   font-size: 0.9rem;
-  line-height: 1rem;
+  line-height: 1.5;
+}
+
+ul li {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 .name {
@@ -402,7 +429,13 @@ h2 {
 p {
   font-family: "Quicksand", sans-serif;
   font-size: 0.9rem;
-  line-height: 1rem;
+  line-height: 1.5;
+}
+
+ul li {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 .name {
@@ -440,8 +473,11 @@ label {
 footer {
   background-color: #21453E;
   color: white;
-  margin-top: auto;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
 }
 footer .socials a i {
   text-decoration: none;
@@ -557,7 +593,7 @@ body main form .submit-btn {
   display: flex;
   justify-content: center;
 }
-body main form .submit-btn .submit {
+body main form .submit-btn .btn-text {
   background-color: #588077;
   border: 2px solid white;
   border-radius: 5px;
@@ -565,7 +601,7 @@ body main form .submit-btn .submit {
   font-family: "Quicksand", sans-serif;
   height: 2.2rem;
 }
-body main form .submit-btn .submit:hover {
+body main form .submit-btn .btn-text:hover {
   background-color: white;
   color: #588077;
 }
