@@ -352,17 +352,17 @@ body .cafe-pic img {
   height: auto;
 }
 @media screen and (min-width: 768px) {
-  body .tagline h2 {
+  body main .tagline h2 {
     font-size: 2.1rem;
   }
-  body .tagline p {
+  body main .tagline p {
     font-size: 1.1rem;
     line-height: 1.5rem;
   }
-  body .meet-btn {
+  body main .meet-btn {
     height: 2.5rem;
   }
-  body .meet-btn a {
+  body main .meet-btn a {
     font-size: 1rem;
   }
 }/*# sourceMappingURL=home.css.map */
