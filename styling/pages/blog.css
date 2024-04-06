@@ -1,552 +1,3 @@
-h1 {
-  font-family: "Abril Fatface", cursive;
-}
-
-h2 {
-  font-family: "Abril Fatface", cursive;
-  text-align: center;
-}
-
-p {
-  font-family: "Quicksand", sans-serif;
-  font-size: 0.9rem;
-  line-height: 1.5;
-}
-
-ul li {
-  font-family: "Quicksand", sans-serif;
-  font-size: 0.9rem;
-  line-height: 1.5;
-}
-
-.name {
-  font-family: "Abril Fatface", cursive;
-}
-
-.nav-items {
-  font-family: "Quicksand", sans-serif;
-}
-
-.signature {
-  font-family: "Abril Fatface", cursive;
-}
-
-.webdev {
-  font-family: "Quicksand", sans-serif;
-}
-
-label {
-  font-family: "Quicksand", sans-serif;
-}
-
-.form-input {
-  font-family: "Quicksand", sans-serif;
-}
-
-.form-message {
-  font-family: "Quicksand", sans-serif;
-}
-
-#submit {
-  font-family: "Quicksand", sans-serif;
-}
-
-footer {
-  background-color: #21453E;
-  color: white;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  justify-content: center;
-}
-footer .socials a i {
-  text-decoration: none;
-  color: white;
-}
-
-@media screen and (max-width: 480px) {
-  .signature {
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-  }
-  .webdev {
-    font-size: 12px;
-    display: flex;
-    justify-content: center;
-  }
-  .socials {
-    font-size: 12px;
-    display: flex;
-    justify-content: center;
-  }
-  .socials a {
-    padding-left: 3%;
-    padding-right: 3%;
-  }
-}
-@media screen and (min-width: 480px) {
-  .signature {
-    font-size: 32px;
-    display: flex;
-    justify-content: center;
-  }
-  .webdev {
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-  }
-  .socials {
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-  }
-  .socials a {
-    padding-left: 3%;
-    padding-right: 3%;
-  }
-}
-@media screen and (min-width: 768px) {
-  .signature {
-    font-size: 36px;
-    display: flex;
-    justify-content: center;
-  }
-  .webdev {
-    font-size: 16px;
-    display: flex;
-    justify-content: center;
-  }
-  .socials {
-    font-size: 16px;
-    display: flex;
-    justify-content: center;
-  }
-  .socials a i {
-    padding-left: 3%;
-    padding-right: 3%;
-  }
-}
-h1 {
-  font-family: "Abril Fatface", cursive;
-}
-
-h2 {
-  font-family: "Abril Fatface", cursive;
-  text-align: center;
-}
-
-p {
-  font-family: "Quicksand", sans-serif;
-  font-size: 0.9rem;
-  line-height: 1.5;
-}
-
-ul li {
-  font-family: "Quicksand", sans-serif;
-  font-size: 0.9rem;
-  line-height: 1.5;
-}
-
-.name {
-  font-family: "Abril Fatface", cursive;
-}
-
-.nav-items {
-  font-family: "Quicksand", sans-serif;
-}
-
-.signature {
-  font-family: "Abril Fatface", cursive;
-}
-
-.webdev {
-  font-family: "Quicksand", sans-serif;
-}
-
-label {
-  font-family: "Quicksand", sans-serif;
-}
-
-.form-input {
-  font-family: "Quicksand", sans-serif;
-}
-
-.form-message {
-  font-family: "Quicksand", sans-serif;
-}
-
-#submit {
-  font-family: "Quicksand", sans-serif;
-}
-
-header {
-  background-color: white;
-  text-align: center;
-}
-header .name a {
-  text-decoration: none;
-  color: #21453E;
-}
-header .nav-items a {
-  color: #21453E;
-  text-decoration: none;
-  padding-bottom: 20px;
-}
-header .nav-items a:hover {
-  text-decoration: underline;
-}
-
-@media screen and (max-width: 480px) {
-  .name {
-    margin-bottom: 16px;
-    font-size: 36px;
-  }
-  .nav-items {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    font-size: 12px;
-  }
-  .nav-items a {
-    padding-left: 2%;
-    padding-right: 2%;
-  }
-}
-@media screen and (min-width: 480px) {
-  .name {
-    margin-bottom: 16px;
-    font-size: 42px;
-  }
-  .nav-items {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
-  }
-  .nav-items a {
-    padding-left: 2%;
-    padding-right: 2%;
-  }
-}
-@media screen and (min-width: 768px) {
-  .name {
-    margin-bottom: 16px;
-    font-size: 48px;
-  }
-  .nav-items {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    font-size: 16px;
-  }
-  .nav-items a {
-    padding-left: 2%;
-    padding-right: 2%;
-  }
-}
-h1 {
-  font-family: "Abril Fatface", cursive;
-}
-
-h2 {
-  font-family: "Abril Fatface", cursive;
-  text-align: center;
-}
-
-p {
-  font-family: "Quicksand", sans-serif;
-  font-size: 0.9rem;
-  line-height: 1.5;
-}
-
-ul li {
-  font-family: "Quicksand", sans-serif;
-  font-size: 0.9rem;
-  line-height: 1.5;
-}
-
-.name {
-  font-family: "Abril Fatface", cursive;
-}
-
-.nav-items {
-  font-family: "Quicksand", sans-serif;
-}
-
-.signature {
-  font-family: "Abril Fatface", cursive;
-}
-
-.webdev {
-  font-family: "Quicksand", sans-serif;
-}
-
-label {
-  font-family: "Quicksand", sans-serif;
-}
-
-.form-input {
-  font-family: "Quicksand", sans-serif;
-}
-
-.form-message {
-  font-family: "Quicksand", sans-serif;
-}
-
-#submit {
-  font-family: "Quicksand", sans-serif;
-}
-
-h1 {
-  font-family: "Abril Fatface", cursive;
-}
-
-h2 {
-  font-family: "Abril Fatface", cursive;
-  text-align: center;
-}
-
-p {
-  font-family: "Quicksand", sans-serif;
-  font-size: 0.9rem;
-  line-height: 1.5;
-}
-
-ul li {
-  font-family: "Quicksand", sans-serif;
-  font-size: 0.9rem;
-  line-height: 1.5;
-}
-
-.name {
-  font-family: "Abril Fatface", cursive;
-}
-
-.nav-items {
-  font-family: "Quicksand", sans-serif;
-}
-
-.signature {
-  font-family: "Abril Fatface", cursive;
-}
-
-.webdev {
-  font-family: "Quicksand", sans-serif;
-}
-
-label {
-  font-family: "Quicksand", sans-serif;
-}
-
-.form-input {
-  font-family: "Quicksand", sans-serif;
-}
-
-.form-message {
-  font-family: "Quicksand", sans-serif;
-}
-
-#submit {
-  font-family: "Quicksand", sans-serif;
-}
-
-header {
-  background-color: white;
-  text-align: center;
-}
-header .name a {
-  text-decoration: none;
-  color: #21453E;
-}
-header .nav-items a {
-  color: #21453E;
-  text-decoration: none;
-  padding-bottom: 20px;
-}
-header .nav-items a:hover {
-  text-decoration: underline;
-}
-
-@media screen and (max-width: 480px) {
-  .name {
-    margin-bottom: 16px;
-    font-size: 36px;
-  }
-  .nav-items {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    font-size: 12px;
-  }
-  .nav-items a {
-    padding-left: 2%;
-    padding-right: 2%;
-  }
-}
-@media screen and (min-width: 480px) {
-  .name {
-    margin-bottom: 16px;
-    font-size: 42px;
-  }
-  .nav-items {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
-  }
-  .nav-items a {
-    padding-left: 2%;
-    padding-right: 2%;
-  }
-}
-@media screen and (min-width: 768px) {
-  .name {
-    margin-bottom: 16px;
-    font-size: 48px;
-  }
-  .nav-items {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    font-size: 16px;
-  }
-  .nav-items a {
-    padding-left: 2%;
-    padding-right: 2%;
-  }
-}
-h1 {
-  font-family: "Abril Fatface", cursive;
-}
-
-h2 {
-  font-family: "Abril Fatface", cursive;
-  text-align: center;
-}
-
-p {
-  font-family: "Quicksand", sans-serif;
-  font-size: 0.9rem;
-  line-height: 1.5;
-}
-
-ul li {
-  font-family: "Quicksand", sans-serif;
-  font-size: 0.9rem;
-  line-height: 1.5;
-}
-
-.name {
-  font-family: "Abril Fatface", cursive;
-}
-
-.nav-items {
-  font-family: "Quicksand", sans-serif;
-}
-
-.signature {
-  font-family: "Abril Fatface", cursive;
-}
-
-.webdev {
-  font-family: "Quicksand", sans-serif;
-}
-
-label {
-  font-family: "Quicksand", sans-serif;
-}
-
-.form-input {
-  font-family: "Quicksand", sans-serif;
-}
-
-.form-message {
-  font-family: "Quicksand", sans-serif;
-}
-
-#submit {
-  font-family: "Quicksand", sans-serif;
-}
-
-footer {
-  background-color: #21453E;
-  color: white;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  justify-content: center;
-}
-footer .socials a i {
-  text-decoration: none;
-  color: white;
-}
-
-@media screen and (max-width: 480px) {
-  .signature {
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-  }
-  .webdev {
-    font-size: 12px;
-    display: flex;
-    justify-content: center;
-  }
-  .socials {
-    font-size: 12px;
-    display: flex;
-    justify-content: center;
-  }
-  .socials a {
-    padding-left: 3%;
-    padding-right: 3%;
-  }
-}
-@media screen and (min-width: 480px) {
-  .signature {
-    font-size: 32px;
-    display: flex;
-    justify-content: center;
-  }
-  .webdev {
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-  }
-  .socials {
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-  }
-  .socials a {
-    padding-left: 3%;
-    padding-right: 3%;
-  }
-}
-@media screen and (min-width: 768px) {
-  .signature {
-    font-size: 36px;
-    display: flex;
-    justify-content: center;
-  }
-  .webdev {
-    font-size: 16px;
-    display: flex;
-    justify-content: center;
-  }
-  .socials {
-    font-size: 16px;
-    display: flex;
-    justify-content: center;
-  }
-  .socials a i {
-    padding-left: 3%;
-    padding-right: 3%;
-  }
-}
 body {
   margin: 0;
   min-height: 100vh;
@@ -592,4 +43,176 @@ main .enquiry-btn:hover {
 main .enquiry-btn:hover a {
   text-decoration: none;
   color: #E8EBD6;
-}/*# sourceMappingURL=blog.css.map */
+}
+
+h1 {
+  font-family: "Abril Fatface", cursive;
+}
+h2 {
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+}
+p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+ul li {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.name {
+  font-family: "Abril Fatface", cursive;
+}
+.nav-items {
+  font-family: "Quicksand", sans-serif;
+}
+.signature {
+  font-family: "Abril Fatface", cursive;
+}
+.webdev {
+  font-family: "Quicksand", sans-serif;
+}
+
+header {
+  background-color: white;
+  text-align: center;
+}
+header .name a {
+  text-decoration: none;
+  color: #21453E;
+}
+header .nav-items a {
+  color: #21453E;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+header .nav-items a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #21453E;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+}
+footer .socials a i {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+  .name {
+    margin-bottom: 16px;
+    font-size: 36px;
+  }
+  .nav-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+  }
+  .nav-items a {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .signature {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+  }
+  .webdev {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+  }
+  .socials {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+  }
+  .socials a {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .name {
+    margin-bottom: 16px;
+    font-size: 42px;
+  }
+  .nav-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+  }
+  .nav-items a {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .signature {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+  }
+  .webdev {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+  }
+  .socials {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+  }
+  .socials a {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    margin-bottom: 16px;
+    font-size: 48px;
+  }
+  .nav-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+  }
+  .nav-items a {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .signature {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+  }
+  .webdev {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+  }
+  .socials {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+  }
+  .socials a i {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+/*# sourceMappingURL=blog.css.map */
