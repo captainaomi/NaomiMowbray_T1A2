@@ -10,10 +10,6 @@ main {
   background-color: #E8EBD6;
   color: #21453E;
   padding: 10%;
-  text-align: justify;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 main img {
   width: 100%;
@@ -24,6 +20,10 @@ main .blog-title {
 main .blog-title .date {
   text-align: center;
 }
+main .button {
+  display: flex;
+  justify-content: center;
+}
 main .enquiry-btn {
   background-color: #E8EBD6;
   border: 2px solid #588077;
@@ -31,6 +31,7 @@ main .enquiry-btn {
   font-family: "Quicksand", sans-serif;
   height: 2.2rem;
   margin-top: 5%;
+  justify-content: center;
 }
 main .enquiry-btn a {
   text-decoration: none;
