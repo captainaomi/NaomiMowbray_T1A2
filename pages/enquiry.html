@@ -43,30 +43,31 @@
         </h2>
 
         <!-- contact form -->
-        <form>
+        <form action="https://formsubmit.co/naomimowbray@live.com" method="POST">
             <div class="form-elements">
                 <label>Name:</label>
-                <input class="form-input">
+                <input class="form-input" type="text" name="name" required>
             </div>
 
             <div class="form-elements">
                 <label>Phone:</label>
-                <input class="form-input">
+                <input class="form-input" type="number" name="phone">
             </div>
 
             <div class="form-elements">
                 <label>Email:</label>
-                <input class="form-input">
+                <input class="form-input" type="email" name="email" required>
             </div>
 
             <div class="form-elements">
                 <label>Message / Question:</label>
-                <textarea class="form-message"></textarea>
+                <textarea class="form-message" name="message" required></textarea>
             </div>
 
             <div class="submit-btn">
-                <button class="btn-text">Let's be friends!</button>
+                <button class="btn-text" type="submit">Let's be friends!</button>
             </div>
+
         </form>
 
         <!-- my contact details -->
