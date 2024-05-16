@@ -6,12 +6,12 @@ h2 {
   text-align: center;
 }
 p {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 0.9rem;
   line-height: 1.5;
 }
 ul li {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 0.9rem;
   line-height: 1.5;
 }
@@ -20,13 +20,13 @@ ul li {
   font-family: "Abril Fatface", cursive;
 }
 .nav-items {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 .signature {
   font-family: "Abril Fatface", cursive;
 }
 .webdev {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 header {
@@ -99,7 +99,7 @@ body main .resume .resume-btn {
   background-color: #21453E;
   border: 2px solid white;
   border-radius: 5px;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Raleway", sans-serif;
   height: 2.2rem;
   margin-bottom: 10%;
 }
@@ -122,7 +122,7 @@ body main .stories-btn {
   background-color: #E8EBD6;
   border: 2px solid #588077;
   border-radius: 5px;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Raleway", sans-serif;
   height: 2.2rem;
   margin-bottom: 15%;
 }
