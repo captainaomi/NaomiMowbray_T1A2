@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webflow Woes + Gumboots</title>
+
+    <!-- styling -->
+    <link rel="stylesheet" href="../../styling/pages/blog.css"/>
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../../images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon/favicon-16x16.png">
+
+    <!-- social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/c667789241.js" crossorigin="anonymous"></script>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1 class="name">
+            <a href="../../index.html">Naomi Mowbray</a>
+        </h1>
+        <nav class="nav-items">
+            <a href="../diary.html">BACK TO THE DEVELOPER DIARIES</a>
+        </nav>
+    </header>
+
+    <main>
+        <img 
+            src="../../images/blog/gumboots.png"
+            alt="Small grey fluffy kitten in yellow gumboots with a yellow background"/> 
+
+        <div class="blog-title">
+            <h2>Webflow Woes: Code Shouldn't Need Gumboots?!</h2>
+            <p class="date">16th May, 2024</p>
+        </div>
+
+        <p>Have you ever spent countless hours on a project: sweating over minute details, fixating on different sections, going in circles about content and colours and sizing and design and process and alllll the things … only to take a step back, take a deep breath, and you hate all of it? </p>
+        
+        <p>Because that’s kinda where I am at right now.</p>
+        
+        <h3>Project: build a website</h3>
+
+        <p>Simple, right?</p>
+
+        <p>I had the wireframes designed, created and approved - in high fidelity, mind you - and got the okay to jump in to the actual build.</p>
+
+        <p>However, instead of starting with a clean slate, I was given a template to work with on webflow.</p>
+        
+        <p>Now, please don't get me wrong.</p>
+
+        <p>Templates are great. They 1000% have their place. They can be timesaving, simplifying processes: you just edit content, drag and drop pictures, and everything is pretty much built out for you already. </p>
+
+        <p>I can see how they are a game changer. </p>
+        
+        <p>For <em>some</em> situations.</p>
+
+        <p>I just don’t fully believe that they were the best place for me to start this project 😬</p>
+        
+        <p>And, I didn’t really grasp just how much so until maybe 75% of the way through.</p>
+
+        <p>Like I said, I was given full liberties to just run with the project, so I did, to the best of my ability. I had to learn a STACK more to work with the template: watching YouTube tutorials, scouring through webflow documentation, scrolling through nearly endless reddit posts about people with similar issues and [hopefully] applicable solutions. </p>
+        
+        <p>What in theory should’ve been pretty easy ended up a migraine (because headache doesn’t cover it).</p>
+
+        <p>And although on the surface, the website is pretty schmick and looks very similar - if not better than - those initial wireframes, I worry that the code behind it all is messy.</p>
+        
+        <p>One of our earliest and most ingrained lessons for coding is to have DRY code: <b>Don’t Repeat Yourself</b>.</p>
+        
+        <p>Unnecessary lines ends up longer load times, worse for SEO, harder for anyone to come in and make sense of what’s happening, and so on and so forth. Keep it clean, keep it concise.</p>
+        
+        <p>Working with a website builder that I’m new to and having to learn how to manipulate a template that didn’t fit what I had planned in the first place has resulted in code that is definitely not DRY.</p>
+        
+        <p>There are pixels AND percentages in the margins and padding. There are pixels AND EM units for typography. Some colours are specified with variables, some in HEX code. There are classes upon classes where I <em>thought</em>> I was simply editing what was there, but the way webflow works I was in fact creating more every time. </p>
+       
+        <p><b>It’s the opposite of DRY code. It’s wet. It’s so wet. It’s not just ‘not DRY’, it’s torr-en-ti-ally WET. I need a poncho, I need an umbrella, I need gumboots, I need to go jump in the huge huge puddles I’ve created and cry and maybe start from scratch to even attempt to mop up some of this mess?</b></p>
+        
+        <p>Here’s where I’m mostly struggling though:</p>
+
+        <h3>Objective #1: Have fun</h3>
+        
+        <p>It’s literally the number one objective for my internship with A Curious Tractor.</p>
+        
+        <p>And it’s literally the opposite of what I’m feeling right now.</p>
+        
+        <h3>Objective #2: Leave in a better place than you came</h3>
+        
+        <p>This is happening! Just getting to know Nic and Ben, spending time with Orange Sky as a bonus, rewiring my brain from past toxic workplaces, and admittedly learning a whole heap about a new process (despite my aversion to templates!): I know I am growing.</p>
+        
+        <h3>Objective #3: Reflect and amplify</h3>
+
+        <p>Okay heeeeeere’s where I’m kinda stuck at the moment. The idea with this objective is for me to document the journey, keep this blog as a journal of sorts of things I’ve learned and picked up and discovered, in the hopes that sharing it will touch someone else and my lessons become bigger than just ‘mine’.</p>
+        
+        <p>HOWEVER:</p>
+        
+        <p>I feel so freaking awkward documenting this process, because I want it to be shiny and beautiful and <em>"This was so much fun learning and growing!"</em>, when in reality it’s currently 2PM and I’m crying at home in my pyjamas and I don’t even want to write this out because it feels ungrateful and all a little bit silly.</p>
+        
+        <p><b>Is that the point perhaps? To reflect upon even the parts that I don’t like admitting to myself?</b></p>
+        
+        <p>To embrace the learning process, even if it wasn’t what I anticipated?</p>
+
+        <p>To be honest, even with the struggles and messy parts?</p>
+
+        <p>To share my <em>whole</em> experience? </p>
+
+        <p>Chances are I’m nowhere NEAR the first to be frustrated, even though it feels like I am. And there’ll definitely be others after me too.</p>
+        
+        <p>So...</p>
+
+        <p>Have you felt the same/similar before? </p>
+
+        <p>Is this just a part of being a junior web developer: getting frustrated, pushing through, learning from it?</p>
+
+        <p>What would you have done if you were in my proverbial gumboots? </p>
+
+        <p>Spoken up earlier? Just gone along with the flow? Spent more time learning how to best work with the template in the first place? Accepted that the back end’s a little messy but the end product does exactly what it’s supposed to and looks pretty damn great? Started all over again once you realised that it’s <em>this</em> wet? </p>
+        
+        <p>How do you find a balance in the journey?</p>
+
+        <p>I appreciate any/all feedback, so <a href="../enquiry.html"><u>please drop me a line with your thoughts/experiences</u></a>.</p>
+        
+        <p>For now, here’s to pulling on some gumboots and my big girl pants, stop feeling sorry for myself, and admitting that <em>“Yep, it might not be the DRYest back end code, but the website is beautiful and functional, I learned a whole lot, and next time it’s going to be easier!”</em></p> 
+        
+        <div class="button">
+            <button class="enquiry-btn">
+                <a href="../enquiry.html">Any questions you want my thoughts on?
+                </a>
+            </button>
+        </div>    
+
+    </main>
+
+    <footer>
+        <div class="signature">
+            Naomi Mowbray
+        </div>
+        <div class="webdev">
+            <p>WEB DEVELOPER  +  CODER</p>
+        </div>
+
+        <div class="socials">
+            <a href="https://www.instagram.com/captainaomi" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            <a href="https://www.github.com/captainaomi" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+            <a href="https://twitter.com/captainaomi" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+            <a href="https://www.linkedin.com/in/naomi-mowbray-581a67a0" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+    </footer>
+</body>
+</html>
