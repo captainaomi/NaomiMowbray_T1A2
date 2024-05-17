@@ -312,74 +312,86 @@ body {
 }
 
 body {
-  background-color: #FFE4B7;
+  background: linear-gradient(to bottom, #FFF3B7, #FF7080, #FFC99E, #F95A8A, #FF7F31, #FF92A1);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 body main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 8%;
+}
+body main .container {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 6%;
 }
 body main .bio {
-  color: #21453E;
-  padding: 10%;
+  color: black;
   text-align: justify;
-  width: 100%;
 }
 body main .pilot-title {
-  background-color: #21453E;
-  color: white;
-  padding: 10%;
+  background-color: #FFC01D;
+  color: black;
   text-align: justify;
   width: 100%;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 3%;
+  padding-bottom: 0%;
 }
 body main .resume {
-  background-color: #21453E;
+  background-color: #FFC01D;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 body main .resume .resume-btn {
-  background-color: #21453E;
-  border: 2px solid white;
+  background-color: #FF7F31;
+  border: 1px solid black;
   border-radius: 5px;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Raleway", sans-serif;
   height: 2.2rem;
-  margin-bottom: 10%;
+  margin-bottom: 6%;
 }
 body main .resume .resume-btn a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 body main .resume .resume-btn:hover {
-  background-color: white;
-  color: #21453E;
+  background-color: #FF92A1;
+  color: black;
 }
 body main .resume .resume-btn:hover a {
   text-decoration: none;
-  color: #21453E;
+  color: black;
 }
 body main .pictures {
-  background-color: #588077;
+  background-color: #FF7080;
 }
-body main .stories-btn {
-  background-color: #FFE4B7;
-  border: 2px solid #588077;
+body main .stories {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+body main .stories .stories-btn {
+  background-color: #FF92A1;
+  border: 1px solid black;
   border-radius: 5px;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Raleway", sans-serif;
   height: 2.2rem;
-  margin-bottom: 15%;
 }
-body main .stories-btn a {
+body main .stories .stories-btn a {
   text-decoration: none;
-  color: #588077;
+  color: black;
 }
-body main .stories-btn:hover {
-  background-color: #588077;
-  color: #FFE4B7;
+body main .stories .stories-btn:hover {
+  background-color: #FF7080;
+  color: black;
 }
-body main .stories-btn:hover a {
+body main .stories .stories-btn:hover a {
   text-decoration: none;
-  color: #FFE4B7;
+  color: black;
 }
 @media screen and (max-width: 480px) {
   body main .pictures {
@@ -399,12 +411,6 @@ body main .stories-btn:hover a {
   }
 }
 @media screen and (min-width: 480px) {
-  body main .bio {
-    padding: 7%;
-  }
-  body main .pilot-title {
-    padding: 7%;
-  }
   body main .pictures {
     display: flex;
     justify-content: space-between;
@@ -416,41 +422,45 @@ body main .stories-btn:hover a {
   }
 }
 @media screen and (min-width: 1024px) {
-  body .bio {
-    padding: 5%;
-  }
-  body .bio h2 {
+  body main .bio h2 {
     font-size: 2rem;
   }
-  body .bio p {
+  body main .bio p {
     font-size: 1rem;
     line-height: 1.5;
   }
-  body .pilot-title {
-    padding: 5%;
-  }
-  body .pilot-title h2 {
+  body main .pilot-title h2 {
     font-size: 2rem;
   }
-  body .pictures {
+  body main .pictures {
     display: flex;
     justify-content: space-between;
     padding: 5%;
   }
-  body .pictures img {
+  body main .pictures img {
     height: auto;
     width: 31%;
   }
-  body .resume .resume-btn {
+  body main .resume .resume-btn {
     height: 2.5rem;
   }
-  body .resume .resume-btn a {
+  body main .resume .resume-btn a {
     font-size: 1rem;
   }
-  body .stories-btn {
+  body main .stories-btn {
     height: 2.5rem;
   }
-  body .stories-btn a {
+  body main .stories-btn a {
     font-size: 1rem;
   }
+}
+
+body:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), #FFC01D 85%);
 }/*# sourceMappingURL=meet.css.map */

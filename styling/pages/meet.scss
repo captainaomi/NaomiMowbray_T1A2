@@ -1,88 +1,103 @@
 @import "./index";
 
-body {
-  background-color: $base-color;
+// Gradient background:
+body {	
+	background: linear-gradient(to bottom, $light-yellow, $peach, $light-orange, $pink, $orange, $light-pink2);
+	background-size: 100%;
+	background-repeat: no-repeat;
 
   main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 8%;
+
+    .container {
+      background-color: rgba(255,255,255,0.6);
+      padding: 6%;
+    }
 
     .bio {
-      color: $primary-color;
-      padding: 10%;
+      color: black;
       text-align: justify;
-      width: 100%;
     }
 
     .pilot-title {
-      background-color: $primary-color;
-      color: white;
-      padding: 10%;
+      background-color: $yellow;
+      color: black;
       text-align: justify;
       width: 100%;
+      padding-left: 6%;
+      padding-right: 6%;
+      padding-top: 3%;
+      padding-bottom: 0%;
     }
 
     // button to resume in external pdf
     .resume {
-      background-color: $primary-color;
+      background-color: $yellow;
       width: 100%;
       display: flex;
       justify-content: center;
 
       .resume-btn {
-        background-color: $primary-color;
-        border: 2px solid white;
+        background-color: $orange;
+        border: 1px solid black;
         border-radius: 5px;
-        font-family: "Quicksand", sans-serif;
+        font-family: "Raleway", sans-serif;
         height: 2.2rem;
-        margin-bottom: 10%;
+        margin-bottom: 6%;
 
         a {
           text-decoration: none;
-          color: white;
+          color: black;
         }
 
         &:hover {
-          background-color: white;
-          color: $primary-color;
+          background-color: $light-pink2;
+          color: black;
 
           a {
             text-decoration: none;
-            color: $primary-color;
+            color: black;
           }
         }
       }
     }
 
     .pictures {
-      background-color: $secondary-color;
+      background-color: $peach;
     }
 
     // button through to developer diaries
+   .stories{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
     .stories-btn {
-      background-color: $base-color;
-      border: 2px solid $secondary-color;
+      background-color: $light-pink1;
+      border: 1px solid black;
       border-radius: 5px;
-      font-family: "Quicksand", sans-serif;
+      font-family: "Raleway", sans-serif;
       height: 2.2rem;
-      margin-bottom: 15%;
 
       a {
         text-decoration: none;
-        color: $secondary-color;
+        color: black;
       }
 
       &:hover {
-        background-color: $secondary-color;
-        color: $base-color;
+        background-color: $peach;
+        color: black;
 
         a {
           text-decoration: none;
-          color: $base-color;
+          color: black;
         }
       }
     }
+  }
 
     // for mobile view
     @media screen and (max-width: $medium) {
@@ -106,13 +121,6 @@ body {
 
     // for tablet view
     @media screen and (min-width: $medium) {
-      .bio {
-        padding: 7%;
-      }
-
-      .pilot-title {
-        padding: 7%;
-      }
 
       .pictures {
         display: flex;
@@ -125,12 +133,10 @@ body {
         }
       }
     }
-  }
 
   // for desktop view
   @media screen and (min-width: $large) {
     .bio {
-      padding: 5%;
       
       h2 {
         font-size: 2rem;
@@ -143,7 +149,6 @@ body {
     }
 
     .pilot-title {
-      padding: 5%;
 
       h2 {
         font-size: 2rem;
@@ -179,4 +184,15 @@ body {
       }
     }
   }
+}
+}
+
+body:before{
+	content:'';
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: -1;
+	background: linear-gradient(to right bottom, rgba(255,255,255,0.2), $yellow 85%);
 }
