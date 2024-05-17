@@ -3,7 +3,7 @@
 @import "./index";
 
 main {
-  background-color: $primary-color;
+  background-color: $orange;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -13,16 +13,16 @@ main {
   // blog posts
   article {
     margin: 3% 1%;
-    background-color: $base-color;
+    background-color: $light-yellow;
     padding: 24px;
     text-align: center;
 
     a {
       text-decoration: none;
-      color: $primary-color;
+      color: black;
 
       &:hover {
-        color: $secondary-color;
+        color: $dark-pink;
       }
     }
 

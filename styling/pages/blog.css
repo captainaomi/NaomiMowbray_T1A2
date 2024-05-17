@@ -563,14 +563,33 @@ body {
   align-items: stretch;
 }
 
+body {
+  background: linear-gradient(to bottom, #FFF3B7, #FF7080, #FFC99E, #F95A8A, #FF7F31, #FF92A1);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+body:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), #FFC01D 85%);
+}
+
 main {
-  background-color: white;
-  color: #21453E;
-  padding: 10%;
+  color: black;
+  padding: 12%;
   text-align: justify;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+main .container {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 8%;
 }
 main img {
   width: 100%;
@@ -582,22 +601,22 @@ main .blog-title .date {
   text-align: center;
 }
 main .enquiry-btn {
-  background-color: white;
-  border: 2px solid #588077;
+  background-color: #FFC01D;
+  border: 1px solid black;
   border-radius: 5px;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Raleway", sans-serif;
   height: 2.2rem;
   margin-top: 5%;
 }
 main .enquiry-btn a {
   text-decoration: none;
-  color: #588077;
+  color: black;
 }
 main .enquiry-btn:hover {
-  background-color: #588077;
-  color: white;
+  background-color: #FF7F31;
+  color: black;
 }
 main .enquiry-btn:hover a {
   text-decoration: none;
-  color: white;
+  color: black;
 }/*# sourceMappingURL=blog.css.map */

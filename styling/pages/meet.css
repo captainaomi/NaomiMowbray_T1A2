@@ -312,7 +312,7 @@ body {
 }
 
 body {
-  background-color: white;
+  background-color: #FFE4B7;
 }
 body main {
   display: flex;
@@ -362,7 +362,7 @@ body main .pictures {
   background-color: #588077;
 }
 body main .stories-btn {
-  background-color: white;
+  background-color: #FFE4B7;
   border: 2px solid #588077;
   border-radius: 5px;
   font-family: "Quicksand", sans-serif;
@@ -375,11 +375,11 @@ body main .stories-btn a {
 }
 body main .stories-btn:hover {
   background-color: #588077;
-  color: white;
+  color: #FFE4B7;
 }
 body main .stories-btn:hover a {
   text-decoration: none;
-  color: white;
+  color: #FFE4B7;
 }
 @media screen and (max-width: 480px) {
   body main .pictures {

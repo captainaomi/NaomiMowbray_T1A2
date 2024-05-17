@@ -564,7 +564,7 @@ body {
 }
 
 body {
-  background-color: #588077;
+  background-color: #FF92A1;
   margin-bottom: 0;
 }
 body main {
@@ -572,11 +572,11 @@ body main {
   flex-direction: column;
 }
 body main .please {
-  color: white;
+  color: black;
   padding-top: 5%;
 }
 body main form {
-  color: white;
+  color: black;
   padding: 10%;
   padding-top: 0%;
 }
@@ -602,23 +602,23 @@ body main form .submit-btn {
   justify-content: center;
 }
 body main form .submit-btn .btn-text {
-  background-color: #588077;
-  border: 2px solid white;
+  background-color: #FF7080;
+  border: 1px solid black;
   border-radius: 5px;
-  color: white;
-  font-family: "Quicksand", sans-serif;
+  color: black;
+  font-family: "Raleway", sans-serif;
   height: 2.2rem;
 }
 body main form .submit-btn .btn-text:hover {
-  background-color: white;
-  color: #588077;
+  background-color: #FF7F31;
+  color: black;
 }
 body main .contact-section {
-  background-color: white;
+  background-color: #FFC99E;
   padding: 7%;
   display: flex;
   flex-direction: column;
-  color: #21453E;
+  color: black;
   text-align: center;
 }
 @media screen and (min-width: 1024px) {
@@ -644,7 +644,7 @@ body main .contact-section {
     margin-right: 0;
     margin-bottom: 0;
     height: auto;
-    background-color: white;
+    background-color: #FFC99E;
   }
   body main .contact-section .contact-words {
     text-align: right;

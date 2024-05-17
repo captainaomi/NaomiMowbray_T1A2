@@ -312,7 +312,7 @@ body {
 }
 
 body {
-  background: linear-gradient(to bottom, #FFC01D, #FF805F);
+  background: linear-gradient(to bottom, #FFC01D, #FF7F31);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -353,7 +353,7 @@ body .meet-btn a {
   color: black;
 }
 body .meet-btn:hover {
-  background-color: #FF805F;
+  background-color: #FF7F31;
 }
 body .meet-btn:hover a {
   text-decoration: none;
