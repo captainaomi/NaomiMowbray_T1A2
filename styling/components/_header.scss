@@ -6,13 +6,19 @@ header {
   background-color: white;
   text-align: center;
 
-  .name a {
-    text-decoration: none;
-    color: $primary-color;
+  .heading-logo {
+    display: flex;
+    justify-content: center;
+
+    img {
+      padding-top: 1%;
+      width: 60%;
+      height: auto;
+    }
   }
 
   .nav-items a {
-    color: $primary-color;
+    color: black;
     text-decoration: none;
     padding-bottom: 20px;
 
@@ -22,13 +28,9 @@ header {
   }
 }
 
+
 // for mobile view
 @media screen and (max-width: $medium) {
-  .name {
-    margin-bottom: 16px;
-    font-size: 36px;
-  }
-
   .nav-items {
     width: 100%;
     display: flex;
@@ -44,11 +46,6 @@ header {
 
 // for tablet view
 @media screen and (min-width: $medium) {
-  .name {
-    margin-bottom: 16px;
-    font-size: 42px;
-  }
-
   .nav-items {
     width: 100%;
     display: flex;
@@ -64,11 +61,6 @@ header {
 
 // for desktop view
 @media screen and (min-width: $large) {
-  .name {
-    margin-bottom: 16px;
-    font-size: 48px;
-  }
-
   .nav-items {
     width: 100%;
     display: flex;

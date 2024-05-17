@@ -1,63 +1,18 @@
-body {
-  margin: 0;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-}
-
-main {
-  background-color: #E8EBD6;
-  color: #21453E;
-  padding: 10%;
-}
-main img {
-  width: 100%;
-}
-main .blog-title {
-  flex-direction: column;
-}
-main .blog-title .date {
-  text-align: center;
-}
-main .button {
-  display: flex;
-  justify-content: center;
-}
-main .enquiry-btn {
-  background-color: #E8EBD6;
-  border: 2px solid #588077;
-  border-radius: 5px;
-  font-family: "Raleway", sans-serif;
-  height: 2.2rem;
-  margin-top: 5%;
-  justify-content: center;
-}
-main .enquiry-btn a {
-  text-decoration: none;
-  color: #588077;
-}
-main .enquiry-btn:hover {
-  background-color: #588077;
-  color: #E8EBD6;
-}
-main .enquiry-btn:hover a {
-  text-decoration: none;
-  color: #E8EBD6;
-}
-
 h1 {
   font-family: "Abril Fatface", cursive;
 }
+
 h2 {
   font-family: "Abril Fatface", cursive;
   text-align: center;
 }
+
 p {
   font-family: "Raleway", sans-serif;
   font-size: 0.9rem;
   line-height: 1.5;
 }
+
 ul li {
   font-family: "Raleway", sans-serif;
   font-size: 0.9rem;
@@ -67,35 +22,37 @@ ul li {
 .name {
   font-family: "Abril Fatface", cursive;
 }
+
 .nav-items {
   font-family: "Raleway", sans-serif;
 }
+
 .signature {
   font-family: "Abril Fatface", cursive;
 }
+
 .webdev {
   font-family: "Raleway", sans-serif;
 }
 
-header {
-  background-color: white;
-  text-align: center;
+label {
+  font-family: "Raleway", sans-serif;
 }
-header .name a {
-  text-decoration: none;
-  color: #21453E;
+
+.form-input {
+  font-family: "Raleway", sans-serif;
 }
-header .nav-items a {
-  color: #21453E;
-  text-decoration: none;
-  padding-bottom: 20px;
+
+.form-message {
+  font-family: "Raleway", sans-serif;
 }
-header .nav-items a:hover {
-  text-decoration: underline;
+
+#submit {
+  font-family: "Raleway", sans-serif;
 }
 
 footer {
-  background-color: #21453E;
+  background-color: #F95A8A;
   color: white;
   padding: 20px;
   display: flex;
@@ -103,26 +60,23 @@ footer {
   flex-grow: 1;
   justify-content: center;
 }
+footer .signature {
+  display: flex;
+  justify-content: center;
+}
+footer .signature img {
+  margin-bottom: -2%;
+  width: 40%;
+  height: auto;
+}
 footer .socials a i {
   text-decoration: none;
   color: white;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 @media screen and (max-width: 480px) {
-  .name {
-    margin-bottom: 16px;
-    font-size: 36px;
-  }
-  .nav-items {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    font-size: 12px;
-  }
-  .nav-items a {
-    padding-left: 2%;
-    padding-right: 2%;
-  }
   .signature {
     font-size: 24px;
     display: flex;
@@ -139,26 +93,11 @@ footer .socials a i {
     justify-content: center;
   }
   .socials a {
-    padding-left: 3%;
-    padding-right: 3%;
-  }
-}
-
-@media screen and (min-width: 480px) {
-  .name {
-    margin-bottom: 16px;
-    font-size: 42px;
-  }
-  .nav-items {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
-  }
-  .nav-items a {
     padding-left: 2%;
     padding-right: 2%;
   }
+}
+@media screen and (min-width: 480px) {
   .signature {
     font-size: 32px;
     display: flex;
@@ -175,26 +114,11 @@ footer .socials a i {
     justify-content: center;
   }
   .socials a {
-    padding-left: 3%;
-    padding-right: 3%;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .name {
-    margin-bottom: 16px;
-    font-size: 48px;
-  }
-  .nav-items {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    font-size: 16px;
-  }
-  .nav-items a {
     padding-left: 2%;
     padding-right: 2%;
   }
+}
+@media screen and (min-width: 1024px) {
   .signature {
     font-size: 36px;
     display: flex;
@@ -211,9 +135,469 @@ footer .socials a i {
     justify-content: center;
   }
   .socials a i {
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
+h1 {
+  font-family: "Abril Fatface", cursive;
+}
 
-/*# sourceMappingURL=blog.css.map */
+h2 {
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+ul li {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.name {
+  font-family: "Abril Fatface", cursive;
+}
+
+.nav-items {
+  font-family: "Raleway", sans-serif;
+}
+
+.signature {
+  font-family: "Abril Fatface", cursive;
+}
+
+.webdev {
+  font-family: "Raleway", sans-serif;
+}
+
+label {
+  font-family: "Raleway", sans-serif;
+}
+
+.form-input {
+  font-family: "Raleway", sans-serif;
+}
+
+.form-message {
+  font-family: "Raleway", sans-serif;
+}
+
+#submit {
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  background-color: white;
+  text-align: center;
+}
+header .heading-logo {
+  display: flex;
+  justify-content: center;
+}
+header .heading-logo img {
+  padding-top: 1%;
+  width: 60%;
+  height: auto;
+}
+header .nav-items a {
+  color: black;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+header .nav-items a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+  .nav-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+  }
+  .nav-items a {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+@media screen and (min-width: 480px) {
+  .nav-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+  }
+  .nav-items a {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .nav-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+  }
+  .nav-items a {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+h1 {
+  font-family: "Abril Fatface", cursive;
+}
+
+h2 {
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+ul li {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.name {
+  font-family: "Abril Fatface", cursive;
+}
+
+.nav-items {
+  font-family: "Raleway", sans-serif;
+}
+
+.signature {
+  font-family: "Abril Fatface", cursive;
+}
+
+.webdev {
+  font-family: "Raleway", sans-serif;
+}
+
+label {
+  font-family: "Raleway", sans-serif;
+}
+
+.form-input {
+  font-family: "Raleway", sans-serif;
+}
+
+.form-message {
+  font-family: "Raleway", sans-serif;
+}
+
+#submit {
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  font-family: "Abril Fatface", cursive;
+}
+
+h2 {
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+ul li {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.name {
+  font-family: "Abril Fatface", cursive;
+}
+
+.nav-items {
+  font-family: "Raleway", sans-serif;
+}
+
+.signature {
+  font-family: "Abril Fatface", cursive;
+}
+
+.webdev {
+  font-family: "Raleway", sans-serif;
+}
+
+label {
+  font-family: "Raleway", sans-serif;
+}
+
+.form-input {
+  font-family: "Raleway", sans-serif;
+}
+
+.form-message {
+  font-family: "Raleway", sans-serif;
+}
+
+#submit {
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  background-color: white;
+  text-align: center;
+}
+header .heading-logo {
+  display: flex;
+  justify-content: center;
+}
+header .heading-logo img {
+  padding-top: 1%;
+  width: 60%;
+  height: auto;
+}
+header .nav-items a {
+  color: black;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+header .nav-items a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+  .nav-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+  }
+  .nav-items a {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+@media screen and (min-width: 480px) {
+  .nav-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+  }
+  .nav-items a {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .nav-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+  }
+  .nav-items a {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+h1 {
+  font-family: "Abril Fatface", cursive;
+}
+
+h2 {
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+ul li {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.name {
+  font-family: "Abril Fatface", cursive;
+}
+
+.nav-items {
+  font-family: "Raleway", sans-serif;
+}
+
+.signature {
+  font-family: "Abril Fatface", cursive;
+}
+
+.webdev {
+  font-family: "Raleway", sans-serif;
+}
+
+label {
+  font-family: "Raleway", sans-serif;
+}
+
+.form-input {
+  font-family: "Raleway", sans-serif;
+}
+
+.form-message {
+  font-family: "Raleway", sans-serif;
+}
+
+#submit {
+  font-family: "Raleway", sans-serif;
+}
+
+footer {
+  background-color: #F95A8A;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+}
+footer .signature {
+  display: flex;
+  justify-content: center;
+}
+footer .signature img {
+  margin-bottom: -2%;
+  width: 40%;
+  height: auto;
+}
+footer .socials a i {
+  text-decoration: none;
+  color: white;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+@media screen and (max-width: 480px) {
+  .signature {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+  }
+  .webdev {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+  }
+  .socials {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+  }
+  .socials a {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+@media screen and (min-width: 480px) {
+  .signature {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+  }
+  .webdev {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+  }
+  .socials {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+  }
+  .socials a {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .signature {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+  }
+  .webdev {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+  }
+  .socials {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+  }
+  .socials a i {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+main {
+  background-color: white;
+  color: #21453E;
+  padding: 10%;
+  text-align: justify;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main img {
+  width: 100%;
+}
+main .blog-title {
+  flex-direction: column;
+}
+main .blog-title .date {
+  text-align: center;
+}
+main .enquiry-btn {
+  background-color: white;
+  border: 2px solid #588077;
+  border-radius: 5px;
+  font-family: "Quicksand", sans-serif;
+  height: 2.2rem;
+  margin-top: 5%;
+}
+main .enquiry-btn a {
+  text-decoration: none;
+  color: #588077;
+}
+main .enquiry-btn:hover {
+  background-color: #588077;
+  color: white;
+}
+main .enquiry-btn:hover a {
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=blog.css.map */

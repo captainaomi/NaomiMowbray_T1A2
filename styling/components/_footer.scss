@@ -3,7 +3,7 @@
 @import "../defaults/text";
 
 footer {
-  background-color: $primary-color;
+  background-color: $pink;
   color: white;
   padding: 20px;
   display: flex;
@@ -11,9 +11,23 @@ footer {
   flex-grow: 1;
   justify-content: center;
 
+  .signature {
+    display: flex;
+    justify-content: center;
+
+    img {
+      margin-bottom: -2%;
+      width: 40%;
+      height: auto;
+    }
+  }
+
   .socials a i {
     text-decoration: none;
     color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+
   }
 }
 
@@ -37,8 +51,8 @@ footer {
     justify-content: center;
 
     a {
-      padding-left: 3%;
-      padding-right: 3%;
+      padding-left: 2%;
+      padding-right: 2%;
     }
   }
 }
@@ -63,8 +77,8 @@ footer {
     justify-content: center;
 
     a {
-      padding-left: 3%;
-      padding-right: 3%;
+      padding-left: 2%;
+      padding-right: 2%;
     }
   }
 }
@@ -89,8 +103,8 @@ footer {
     justify-content: center;
 
     a i {
-      padding-left: 3%;
-      padding-right: 3%;
+      padding-left: 2%;
+      padding-right: 2%;
     }
   }
 }
