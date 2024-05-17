@@ -10,5 +10,5 @@ A year later, it's past time I revisit this and put into practice more of what I
 
 TO-DO:
 Add alt text to headers and footers
-Update link styling gumboots
+Update link styling gumboots (copy from Meet Me?)
 Suss fonts on mobile?

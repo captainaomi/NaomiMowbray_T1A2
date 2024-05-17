@@ -312,7 +312,7 @@ body {
 }
 
 body {
-  background: linear-gradient(to bottom, #FFF3B7, #FF7080, #FFC99E, #F95A8A, #FF7F31, #FF92A1);
+  background: linear-gradient(to bottom, #FFC01D, #FF7F31);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -462,5 +462,5 @@ body:before {
   bottom: 0;
   width: 100%;
   z-index: -1;
-  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), #FFC01D 85%);
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), #F95A8A 90%);
 }/*# sourceMappingURL=meet.css.map */
