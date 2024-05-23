@@ -367,10 +367,12 @@ body main .cafe-pic {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    flex: 1 1 auto;
+    padding-top: 3%;
   }
   body main .hero {
     width: 100%;
+    height: 100%;
+    padding: 6%;
     text-align: center;
   }
   body main .cafe-pic {
