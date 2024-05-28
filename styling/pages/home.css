@@ -246,10 +246,16 @@ footer .socials a i {
     display: flex;
     justify-content: center;
   }
-  .webdev {
+  .webdev a {
     font-size: 12px;
     display: flex;
     justify-content: center;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 1%;
+  }
+  .webdev a:hover {
+    text-decoration: underline;
   }
   .socials {
     font-size: 12px;
@@ -267,10 +273,16 @@ footer .socials a i {
     display: flex;
     justify-content: center;
   }
-  .webdev {
+  .webdev a {
     font-size: 14px;
     display: flex;
     justify-content: center;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 1%;
+  }
+  .webdev a:hover {
+    text-decoration: underline;
   }
   .socials {
     font-size: 14px;
@@ -288,10 +300,16 @@ footer .socials a i {
     display: flex;
     justify-content: center;
   }
-  .webdev {
+  .webdev a {
     font-size: 16px;
     display: flex;
     justify-content: center;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 1%;
+  }
+  .webdev a:hover {
+    text-decoration: underline;
   }
   .socials {
     font-size: 16px;
